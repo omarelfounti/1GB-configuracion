@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Formulario</h1>
+    <p>Rellena los siguientes datos</p>
+    <form action="https://github.com/omarelfounti">
+      <fieldset>
+        <label for="">Enter Your First Name: <input type ="text" required /></label>
+        <label for="">Enter Your Last Name:  <input type ="text" required /></label>
+        <label for="">Enter Your Email:      <input type ="email" required /></label>
+        <label for="">Create a New PassWord  <input type ="password" pattern="[a-z0-5]{8,}" minlength="8" required/></label>
+      </fieldset>
+      <fieldset></fieldset>
+         <label for=""><input type="radio" name="account-type" />Personal Account</label>
+         <label for=""><input type="radio" name="account-type" /> Business Account</label>
+         <label for=""><input type="checkbox" required /> I accept <a href="https://www.freecodecamp.org/news/terms-of-service/"> the terms and conditions </label>
+      <fieldset> 
+        <label for="">Upload a profile picture: <input type="file" /></label>
+        <label for="">Input your age (years): <input type="number" min="13" max="120"</label>         
+      </fieldset>
+
+
+      <input type ="submit" value = "Submit" />
+    
+    
+    
+    
+    </form>
+  </body>
+</html>
